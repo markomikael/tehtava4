@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                     ArrayList <luokka> lista = new ArrayList<luokka>();
 
                 Type listantyyppi = new TypeToken<ArrayList<luokka>>(){}.getType();
-                Gson gson = new GsonBuilder().setDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'").create();
+                Gson gson = new Gson();
 
 
 
